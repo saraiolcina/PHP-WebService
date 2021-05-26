@@ -1,0 +1,143 @@
+/*Hoja de estilos*/
+
+@import "https://fonts.googleapis.com/css?family=Rubik+One";
+
+#html,
+body {
+  text-align: center;
+  background-color: antiquewhite;
+  background-size: cover;
+}
+
+h1 {
+  top: 15%;
+  color: rgb(26, 1, 1);
+  font-size: 50px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2,
+h3 {
+  top: 15%;
+  color: rgb(26, 1, 1);
+  font-size: 35px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#enablecontainer {
+  position: absolute;
+  left: 70%;
+  top: 70%;
+  text-align: right;
+  font-family: "Courier New", monospace;
+  font-size: medium;
+}
+
+#contentcontainer {
+  position: absolute;
+  left: 37%;
+  top: 40%;
+  font-family: "Courier New", monospace;
+  font-size: medium;
+}
+
+input {
+  border: 1px solid var(--border);
+  border-radius: var(--borderRadius);
+  box-sizing: border-box;
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+  order: 2;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.25s;
+}
+
+#diff {
+  font-size: 2rem;
+  height: 2.5rem;
+}
+
+#diff2 {
+  position: absolute;
+  left: 70%;
+  top: 25%;
+  font-size: 2rem;
+  height: 2.5rem;
+}
+
+a {
+  font-size: 2rem;
+  height: 2.5rem;
+}
+
+#pag {
+  font-size: 1rem;
+  height: 1.5rem;
+}
+
+button {
+  border: 1px solid var(--border);
+  border-radius: var(--borderRadius);
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  height: 1.5rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+  order: 2;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.25s;
+  font-family: "Courier New", monospace;
+}
+
+p {
+  border: 1px solid var(--border);
+  border-radius: var(--borderRadius);
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+  order: 2;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.25s;
+  font-family: "Courier New", monospace;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+td,
+th {
+  padding-left: 8px;
+}
+
+thead tr {
+  height: 60px;
+  background: #ffed86;
+  font-size: 16px;
+}
+
+tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #e3f1d5;
+}
